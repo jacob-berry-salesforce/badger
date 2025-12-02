@@ -33,7 +33,7 @@ if not SKIP_CINEMATIC:
 
     gc.collect()
 
-menu = __import__("/system/apps/menu")
+menu = __import__("/system/apps/sf_menu")
 
 app = run(menu.update)
 
